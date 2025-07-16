@@ -28,3 +28,40 @@ https://github.com/JulianoTelles/primeiro_app/tree/main/primeiro_app
 
 
 
+Bash
+
+# Navegue até a pasta do seu projeto se ainda não estiver lá
+# PS D:\Projetos\CursoProjetosFlutter\primeiro_app>
+
+# 1. Garanta que todas as suas mudanças estão preparadas
+git add .
+
+# 2. Faça o commit corretamente (sem espaço entre - e m)
+git commit -m "Projeto 001 - lançamento de dados"
+
+# 3. Renomeie a branch local para 'main' (para alinhar com o GitHub)
+git branch -M main
+
+# 4. Finalmente, faça o push para o GitHub
+git push -u origin main
+
+
+
+
+********************  Remover um projeto 
+
+
+# 1. Navegue para a pasta raiz do seu repositório (CursoProjetosFlutter)
+cd ..
+
+# 2. Remova a pasta segundo_app do Git e do seu sistema de arquivos
+git rm -r segundo_app/
+
+# 3. Confirme a remoção com um commit
+git commit -m "Remove a pasta segundo_app"
+
+# 4. Envie as alterações para o GitHub
+git push origin main
+
+
+
