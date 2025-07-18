@@ -18,6 +18,14 @@ class StartScreen extends StatelessWidget {
             'Prof. Juliano Telles',
             style: TextStyle(color: Colors.white, fontSize: 24),
           ),
+          const SizedBox(height: 30),
+          OutlinedButton(
+            onPressed: () {},
+            style: OutlinedButton.styleFrom(
+              foregroundColor: Colors.white,
+            ),
+            child: const Text('Iniciar Quiz'),
+          ),
         ],
       ),
     );
