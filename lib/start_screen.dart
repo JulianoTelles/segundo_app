@@ -15,7 +15,7 @@ class StartScreen extends StatelessWidget {
           ),
           const SizedBox(height: 80),
           const Text(
-            'Prof. Juliano Telles',
+            'Prof. Juliano Telles - 2025 ',
             style: TextStyle(color: Colors.white, fontSize: 24),
           ),
           const SizedBox(height: 30),
@@ -25,7 +25,7 @@ class StartScreen extends StatelessWidget {
               foregroundColor: Colors.white,
             ),
             icon: const Icon(Icons.arrow_right_alt),
-            label: const Text('Iniciar Quiz'),
+            label: const Text('Iniciar Quiz - Badran'),
           ),
         ],
       ),
